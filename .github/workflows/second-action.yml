@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
       - name: Print Hello World
-        run: echo "hello world"
-      - name: "wait for 5 secs"
-        run: sleep 5
+        run: |
+              echo "hello world"
+              sleep 5
       - name: Say Goodbye
         run: echo "Good bye"
